@@ -63,10 +63,10 @@ h1 {
 
 /* seccion hero */
 .hero {
-    background-color: rgb(26, 22, 130);
+    background-color: white;
     min-height: 450px;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
 }
 .hero-principal{
     padding: 3rem;
