@@ -1,0 +1,41 @@
+.calculadora {
+	width: 300px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	font-family: `segoe UI`, Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.screen {
+	height: 50px;
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+.screen input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 24px;
+	text-align: right;
+	background-color: transparent;
+
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-gap: 5px;
+	padding: 10px;
+}
+
+.button {
+	height: 50px;
+	border: none;
+	background-color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
